@@ -3,9 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>OS Design Simulator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Welcome to the OS Design Simulator</h1>
+        <p>Explore and compare the design and functionality of different operating systems.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#windows">Windows</a></li>
+            <li><a href="#macos">macOS</a></li>
+            <li><a href="#ubuntu">Ubuntu</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="windows">
+            <h2>Windows</h2>
+            <p>Experience the familiar interface of Windows, featuring the Taskbar, Start Menu, and Windows Explorer.</p>
+            <div class="os-simulation windows">
+                <div class="taskbar">
+                    <button class="start-button">Start</button>
+                    <div class="taskbar-icons">
+                        <div class="icon">E</div>
+                        <div class="icon">F</div>
+                        <div class="icon">B</div>
+                    </div>
+                    <div class="taskbar-clock">12:00 PM</div>
+                </div>
+                <div class="window">
+                    <div class="window-header">
+                        <span class="window-title">File Explorer</span>
+                        <div class="window-controls">
+                            <button class="minimize">_</button>
+                            <button class="maximize">[]</button>
+                            <button class="close">X</button>
+                        </div>
+                    </div>
+                    <div class="window-content">
+                        <p>This is a simulation of Windows File Explorer.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="macos">
+            <h2>macOS</h2>
+            <p>Discover the sleek design of macOS, with its Dock, Menu Bar, and Finder.</p>
+            <div class="os-simulation macos">
+                <div class="menu-bar">
+                    <div class="menu-bar-item">File</div>
+                    <div class="menu-bar-item">Edit</div>
+                    <div class="menu-bar-item">View</div>
+                </div>
+                <div class="dock">
+                    <div class="dock-icon">F</div>
+                    <div class="dock-icon">S</div>
+                    <div class="dock-icon">B</div>
+                </div>
+                <div class="window">
+                    <div class="window-header">
+                        <span class="window-title">Finder</span>
+                        <div class="window-controls">
+                            <button class="close">X</button>
+                            <button class="minimize">_</button>
+                            <button class="maximize">+</button>
+                        </div>
+                    </div>
+                    <div class="window-content">
+                        <p>This is a simulation of macOS Finder.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ubuntu">
+            <h2>Ubuntu</h2>
+            <p>Explore the open-source design of Ubuntu, featuring the Sidebar launcher and top bar.</p>
+            <div class="os-simulation ubuntu">
+                <div class="top-bar">
+                    <div class="top-bar-item">Activities</div>
+                    <div class="top-bar-item">Time</div>
+                </div>
+                <div class="sidebar">
+                    <div class="sidebar-icon">F</div>
+                    <div class="sidebar-icon">T</div>
+                    <div class="sidebar-icon">B</div>
+                </div>
+                <div class="window">
+                    <div class="window-header">
+                        <span class="window-title">File Manager</span>
+                        <div class="window-controls">
+                            <button class="minimize">_</button>
+                            <button class="maximize">[]</button>
+                            <button class="close">X</button>
+                        </div>
+                    </div>
+                    <div class="window-content">
+                        <p>This is a simulation of Ubuntu File Manager.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 OS Design Simulator. All rights reserved.</p>
+    </footer>
 </body>
 </html>
