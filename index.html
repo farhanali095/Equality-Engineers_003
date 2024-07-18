@@ -3,115 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OS Design Simulator</title>
+    <title>OS Comparison Tool</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to the OS Design Simulator</h1>
-        <p>Explore and compare the design and functionality of different operating systems.</p>
+        <h1>Welcome to the OS Comparison Tool</h1>
+        <nav>
+            <ul>
+                <li><a class="nav-btn windows-btn" href="./windows/windows.html">Windows</a></li>
+                <li><a class="nav-btn macos-btn" href="macos.html">macOS</a></li>
+                <li><a class="nav-btn ubuntu-btn" href="ubuntu.html">Ubuntu</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <nav>
-        <ul>
-            <li><a href="#windows">Windows</a></li>
-            <li><a href="#macos">macOS</a></li>
-            <li><a href="#ubuntu">Ubuntu</a></li>
-        </ul>
-    </nav>
-
     <main>
-        <section id="windows">
-            <h2>Windows</h2>
-            <p>Experience the familiar interface of Windows, featuring the Taskbar, Start Menu, and Windows Explorer.</p>
-            <div class="os-simulation windows">
-                <div class="taskbar">
-                    <button class="start-button">Start</button>
-                    <div class="taskbar-icons">
-                        <div class="icon">E</div>
-                        <div class="icon">F</div>
-                        <div class="icon">B</div>
+        <div class="os-icons">
+            <div class="os-icon">
+                <a href="./windows/windows.html">
+                    <div class="circle windows-circle">
+                        <img src="https://cdn.pixabay.com/photo/2018/05/08/21/29/windows-3384024_1280.png" alt="Windows OS">
                     </div>
-                    <div class="taskbar-clock">12:00 PM</div>
-                </div>
-                <div class="window">
-                    <div class="window-header">
-                        <span class="window-title">File Explorer</span>
-                        <div class="window-controls">
-                            <button class="minimize">_</button>
-                            <button class="maximize">[]</button>
-                            <button class="close">X</button>
-                        </div>
-                    </div>
-                    <div class="window-content">
-                        <p>This is a simulation of Windows File Explorer.</p>
-                    </div>
-                </div>
+                    <!-- <h3>Windows</h3> -->
+                </a>
             </div>
-        </section>
-
-        <section id="macos">
-            <h2>macOS</h2>
-            <p>Discover the sleek design of macOS, with its Dock, Menu Bar, and Finder.</p>
-            <div class="os-simulation macos">
-                <div class="menu-bar">
-                    <div class="menu-bar-item">File</div>
-                    <div class="menu-bar-item">Edit</div>
-                    <div class="menu-bar-item">View</div>
-                </div>
-                <div class="dock">
-                    <div class="dock-icon">F</div>
-                    <div class="dock-icon">S</div>
-                    <div class="dock-icon">B</div>
-                </div>
-                <div class="window">
-                    <div class="window-header">
-                        <span class="window-title">Finder</span>
-                        <div class="window-controls">
-                            <button class="close">X</button>
-                            <button class="minimize">_</button>
-                            <button class="maximize">+</button>
-                        </div>
+            <div class="os-icon">
+                <a href="macos.html">
+                    <div class="circle macos-circle">
+                        <img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/apple-ios-system-platform-os-mac-linux-512.png" alt="macOS">
                     </div>
-                    <div class="window-content">
-                        <p>This is a simulation of macOS Finder.</p>
-                    </div>
-                </div>
+                    <!-- <h3>macOS</h3> -->
+                </a>
             </div>
-        </section>
-
-        <section id="ubuntu">
-            <h2>Ubuntu</h2>
-            <p>Explore the open-source design of Ubuntu, featuring the Sidebar launcher and top bar.</p>
-            <div class="os-simulation ubuntu">
-                <div class="top-bar">
-                    <div class="top-bar-item">Activities</div>
-                    <div class="top-bar-item">Time</div>
-                </div>
-                <div class="sidebar">
-                    <div class="sidebar-icon">F</div>
-                    <div class="sidebar-icon">T</div>
-                    <div class="sidebar-icon">B</div>
-                </div>
-                <div class="window">
-                    <div class="window-header">
-                        <span class="window-title">File Manager</span>
-                        <div class="window-controls">
-                            <button class="minimize">_</button>
-                            <button class="maximize">[]</button>
-                            <button class="close">X</button>
-                        </div>
+            <div class="os-icon">
+                <a href="ubuntu.html">
+                    <div class="circle ubuntu-circle">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC88mqiPkFeMqtezeSD5afXHLETwBkpF_MBQ&s" alt="Ubuntu OS">
                     </div>
-                    <div class="window-content">
-                        <p>This is a simulation of Ubuntu File Manager.</p>
-                    </div>
-                </div>
+                    <!-- <h3>Ubuntu</h3> -->
+                </a>
             </div>
-        </section>
+        </div>
     </main>
-
     <footer>
-        <p>&copy; 2024 OS Design Simulator. All rights reserved.</p>
+        <p>&copy; 2024 OS Comparison Tool</p>
     </footer>
 </body>
-</html>
