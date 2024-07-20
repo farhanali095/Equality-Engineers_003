@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OS Comparison Tool</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-        <h1>Welcome to the OS Comparison Tool</h1>
         <nav>
+            <div class="typing-demo">Welcome to OS Comparison</div>
             <ul>
-                <li><a class="nav-btn windows-btn" href="./windows/windows.html">Windows</a></li>
-                <li><a class="nav-btn macos-btn" href="macos.html">macOS</a></li>
-                <li><a class="nav-btn ubuntu-btn" href="ubuntu.html">Ubuntu</a></li>
+                <li><a href="./Windows/windows.html" class="nav-btn windows-btn">Windows</a></li>
+                <li><a href="#" class="nav-btn macos-btn">MacOS</a></li>
             </ul>
         </nav>
+        
+          </nav>
     </header>
     <main>
         <div class="os-icons">
@@ -24,7 +27,6 @@
                     <div class="circle windows-circle">
                         <img src="https://cdn.pixabay.com/photo/2018/05/08/21/29/windows-3384024_1280.png" alt="Windows OS">
                     </div>
-                    <!-- <h3>Windows</h3> -->
                 </a>
             </div>
             <div class="os-icon">
@@ -32,20 +34,25 @@
                     <div class="circle macos-circle">
                         <img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/apple-ios-system-platform-os-mac-linux-512.png" alt="macOS">
                     </div>
-                    <!-- <h3>macOS</h3> -->
-                </a>
-            </div>
-            <div class="os-icon">
-                <a href="ubuntu.html">
-                    <div class="circle ubuntu-circle">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC88mqiPkFeMqtezeSD5afXHLETwBkpF_MBQ&s" alt="Ubuntu OS">
-                    </div>
-                    <!-- <h3>Ubuntu</h3> -->
                 </a>
             </div>
         </div>
     </main>
     <footer>
-        <p>&copy; 2024 OS Comparison Tool</p>
+        <div>
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+              <li><a href="#">Created By Farhan and Raj-<i class="fa-solid fa-heart"></i></a></li>
+              <li>
+                <p>👋</p>
+              </li>
+            </ul>
+          </div>
     </footer>
+    <script src="scripts.js">
+        
+    </script>
 </body>
+</html>
