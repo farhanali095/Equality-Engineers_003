@@ -100,7 +100,7 @@ nav ul {
 
 @keyframes blink {
   50% {
-    border-color: transparent;
+    border-color: transparent; /* try*/
   }
 }
 
